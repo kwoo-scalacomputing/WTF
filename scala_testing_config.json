@@ -1,8 +1,9 @@
 {
     "Compiler": "intel",
-    "Libraries": "https://s3.amazonaws.com/skymet-scala-wrf-out/netcdf_3.6.3.tar",
-    "Data" : "https://s3.amazonaws.com/skymet-scala-wrf-out/Data.tar",
-    "Source" : "https://github.com/NCAR/WRFV3.git",
-    "Script" : "regTest_intel_scala.wtf",
-    "Cores": "4"
+    "libraries": "https://s3.amazonaws.com/skymet-scala-wrf-out/netcdf_3.6.3.tar",
+    "test_data" : "https://s3.amazonaws.com/skymet-scala-wrf-out/Data.tar",
+    "wrf_source" : "https://github.com/NCAR/WRFV3.git",
+    "wtf_script" : "regTest_intel_scala.wtf",
+    "results" : "test_run",
+    "cores": "4"
 }
